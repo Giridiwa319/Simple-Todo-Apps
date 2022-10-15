@@ -1,0 +1,27 @@
+[
+   {
+      "id": 1,
+      "task": "Membuat Simple Situs",
+      "status": true
+   },
+   {
+      "id": 2,
+      "task": "Membuat Proyek CRUD bersama",
+      "status": false
+   },
+   {
+      "id": 3,
+      "task": "Belajar MVC Dan OOP di Course Net",
+      "status": false
+   },
+   {
+      "id": 4,
+      "task": "Belajar Bareng di Course Net",
+      "status": false
+   },
+   {
+      "id": 5,
+      "task": "Belajar Backend Dan Front End",
+      "status": false
+   }
+]
