@@ -1,17 +1,18 @@
 const fs = require('fs');
 
 class Todo{
-    constructor(id, task, status){
+    constructor(id, task, status, created_at){
         this.id = id;
         this.task = task;
         this.status = status;
+        this.created_at = created_at;
     }
     static getTodos(){
         let todos = JSON.parse(fs.readFileSync('./data.json','utf-8'));
         todos = todos.map(todo => {
             const {id, task, status} = todo
 
-            return new Todo(id, task, status);
+            return new Todo(id, task, status,new Date());
         })
 
         return todos;
