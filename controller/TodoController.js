@@ -17,12 +17,14 @@ class TodoController{
     }
     static edit(params){
         Todo.edit(params)
-        
+
     }
     static delete(params){
         Todo.delete(params)
     }
-    
+    static changeStatus(params){
+        Todo.changeStatus(params)
+    }
 }
 
 
