@@ -14,7 +14,7 @@ class View{
         console.log(`Task Lists:`)
         todos.forEach(todo => {
             const{id,task} = todo
-            if(todos.status){
+            if(todo.status){
                 console.log(`${id}. [X] ${task}`);
             }else{
                 console.log(`${id}. [ ] ${task}`);
